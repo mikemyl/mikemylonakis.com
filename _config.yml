@@ -68,9 +68,11 @@ algolia:
   powered_by             : true # true (default), false
   files_to_exclude:
     - _pages/sitemap.md
-    - _pages/tags.html
+    - _pages/notebook.md
+    - _pages/blog.md
+    - _pages/tags.md
+    - _pages/tools.md
     - _pages/posts-by-year.md
-    - _pages/posts-by-year.html
   nodes_to_index: 'p,blockquote,li,div.paragraph,td,h2,h3,h4,div.language-bash,div.highlighter-rouge,div.highlight'
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
