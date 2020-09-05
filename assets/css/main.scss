@@ -24,5 +24,4 @@ $base0f: #b18a3d !default;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "minimal-mistakes/mike";
-@import "minimal-mistakes/codemirror";
 @import "minimal-mistakes/timeline";
