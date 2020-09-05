@@ -1,0 +1,35 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Blog"
+    url: /categories/
+  - title: "Tools"
+    url: /tools/
+  - title: "Notebook"
+    url: /notebook/
+  #  - title: "Sitemap"
+  #    url: /sitemap/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+
+
+notebook:
+  - title: " sheets"
+    children:
+      - title: "Latencies"
+        url: /notebook/latencies
+      - title: "SSL certificates"
+        url: /notebook/ssl
+      - title: "PDF file manipulation"
+        url: /notebook/pdfs
+
+tools:
+  - title: Tools
+    children:
+      - title: "JWT decoder"
+        url: /tools/jwt
