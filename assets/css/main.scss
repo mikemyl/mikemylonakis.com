@@ -17,9 +17,19 @@ $base09: #e9c062 !default;
 $base0a: #ffffb6 !default;
 $base0b: #a8ff60 !default;
 $base0c: #c6c5fe !default;
-$base0d: #96cbfe !default;
+$base0d: #386fa5 !default;
 $base0e: #ff73fd !default;
 $base0f: #b18a3d !default;
+
+.highlight ::selection {
+    background: #cceff0;
+    color: #3d4144;
+}
+
+.highlight ::-moz-selection {
+    background: #cceff0;
+    color: #3d4144;
+}
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

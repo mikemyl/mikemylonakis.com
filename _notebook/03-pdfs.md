@@ -12,7 +12,7 @@ last_modified_at: 2019-08-1T12:20:31-04:00
 Fist install ImageMagick ( `pacman -S imagemagick` on Arch Linux )
 
 ```bash
-convert image1.jpg image2.jpg image3.jpg out.pdf
+$ convert image1.jpg image2.jpg image3.jpg out.pdf
 ```
 
 ## Compress a PDF file
