@@ -4,6 +4,7 @@ layout: categories
 classes: wide
 permalink: /categories/
 author_profile: true
+entries_layout: grid
 ---
 
 <p class="notice--info">
