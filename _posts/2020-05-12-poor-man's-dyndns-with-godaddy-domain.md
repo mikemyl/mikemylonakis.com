@@ -2,7 +2,7 @@
 title:  "DIY DynDns using GoDaddy's REST API"
 excerpt: "How to set up your own dynamic DNS using a GoDaddy domain and its REST API"
 header:
-    teaser: /assets/images/posts/godaddy.png
+    teaser: /assets/images/posts/godaddy.webp
 categories:
   - Networking
 tags:
@@ -13,7 +13,7 @@ toc_sticky: true
 last_modified_at: 2020-08-03T07:07:31-02:00
 ---
 
-![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/posts/godaddy.png)
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/posts/godaddy.webp)
 
 
 ## Introduction

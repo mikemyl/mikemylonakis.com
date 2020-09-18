@@ -2,7 +2,7 @@
 title:  "Setting up the Unix Password Manager on Android with YubiKey 5 NFC"
 excerpt: "How to set up the Unix Password manager on android using a YubiKey 5 NFC"
 header:
-    teaser: /assets/images/posts/yubikey.jpg
+    teaser: /assets/images/posts/yubikey.webp
 categories: 
   - Cryptography
 tags:
@@ -14,7 +14,7 @@ toc: true
 toc_sticky: true
 ---
 
-![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/posts/yubikey.jpg)
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/posts/yubikey.webp)
 
 ## Introduction
 

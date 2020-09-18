@@ -1,6 +1,8 @@
 ---
 title:  "Using docker behind an http proxy with authentication"
 excerpt: "How to use docker behind an authenticated http proxy"
+header:
+    teaser: /assets/images/posts/docker.jpg
 categories: 
   - Unix
 tags:
@@ -10,6 +12,8 @@ tags:
 toc: true
 toc_sticky: true
 ---
+
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/posts/docker.jpg)
 
 
 ### Introduction

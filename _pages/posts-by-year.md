@@ -4,6 +4,7 @@ layout: posts
 classes: wide
 permalink: /year-archive/
 author_profile: true
+entries_layout: grid
 ---
 
 <p class="notice--info">
