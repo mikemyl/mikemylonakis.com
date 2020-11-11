@@ -8,6 +8,8 @@ main:
     url: /tools/
   - title: "Notebook"
     url: /notebook/
+  - title: "Reads"
+    url: /reads/
   #  - title: "Sitemap"
   #    url: /sitemap/
   # - title: "About"
@@ -19,7 +21,7 @@ main:
 
 
 notebook:
-  - title: " sheets"
+  - title: "notebook"
     children:
       - title: "Latencies"
         url: /notebook/latencies
@@ -33,3 +35,9 @@ tools:
     children:
       - title: "JWT decoder"
         url: /tools/jwt
+
+reads:
+  - title: Reads
+    children:
+      - title: "Peak"
+        url: /reads/peak

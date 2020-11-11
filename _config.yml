@@ -69,6 +69,7 @@ algolia:
   files_to_exclude:
     - _pages/sitemap.md
     - _pages/notebook.md
+    - _pages/reads.md
     - _pages/blog.md
     - _pages/tags.md
     - _pages/tools.md
@@ -295,6 +296,9 @@ collections:
   tools:
     output: true
     permalink: /:collection/:path/
+  reads:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -308,6 +312,7 @@ defaults:
       author_profile: false
       read_time: true
       comments: true
+      toc_label: On this page
       share: true
       related: true
   - scope:
@@ -319,6 +324,7 @@ defaults:
       author_profile: false
       share: true
       comments: true
+      toc_label: On this page
       sidebar:
         nav: "notebook"
   - scope:
@@ -328,8 +334,22 @@ defaults:
       layout: single-wide
       read_time: false
       author_profile: false
+      toc_label: On this page
       share: true
       comments: true
+  - scope:
+      path: ""
+      type: reads
+    values:
+      layout: single
+      read_time: false
+      toc_label: On this page
+      author_profile: false
+      sidebar:
+        nav: "reads"
+      share: true
+      comments: true
+
 
 # Mike
 typed_lines:
