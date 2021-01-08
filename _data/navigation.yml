@@ -41,3 +41,5 @@ reads:
     children:
       - title: "Peak"
         url: /reads/peak
+      - title: "Deep work"
+        url: /reads/deep-work

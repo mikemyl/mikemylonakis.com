@@ -35,10 +35,10 @@ var jwtIn = document.getElementById("jwt-in");
 var jwtHeader = document.getElementById("jwt-header");
 var jwtPayload = document.getElementById("jwt-payload");
 var jwtSignature = document.getElementById("jwt-signature");
-var jwtInEditor = CodeMirror.fromTextArea(jwtIn, {theme: 'night', mode: 'jwtmode', viewportMargin: Infinity, autofocus: true, placeholder: defaultJwtIn, lineWrapping: true, minLines: 4 });
-var jwtHeaderEditor = CodeMirror.fromTextArea(jwtHeader, {readOnly: true, theme: 'night', mode: "application/json",matchBrackets: true, viewportMargin: Infinity, placeholder: defaultHeaader, lineWrapping: true});
-var jwtPayloadEditor = CodeMirror.fromTextArea(jwtPayload, {readOnly: true, theme: 'night', mode: "application/json",matchBrackets: true, viewportMargin: Infinity, placeholder: defaultPayload});
-var jwtSignatureEditor = CodeMirror.fromTextArea(jwtSignature, {readOnly: 'nocursor', theme: 'night', mode: 'javascript', viewportMargin: Infinity, placeholder: signature, });
+var jwtInEditor = CodeMirror.fromTextArea(jwtIn, {theme: 'dracula', mode: 'jwtmode', viewportMargin: Infinity, autofocus: true, placeholder: defaultJwtIn, lineWrapping: true, minLines: 4 });
+var jwtHeaderEditor = CodeMirror.fromTextArea(jwtHeader, {readOnly: true, theme: 'dracula', mode: "application/json",matchBrackets: true, viewportMargin: Infinity, placeholder: defaultHeaader, lineWrapping: true});
+var jwtPayloadEditor = CodeMirror.fromTextArea(jwtPayload, {readOnly: true, theme: 'dracula', mode: "application/json",matchBrackets: true, viewportMargin: Infinity, placeholder: defaultPayload});
+var jwtSignatureEditor = CodeMirror.fromTextArea(jwtSignature, {readOnly: 'nocursor', theme: 'dracula', mode: 'javascript', viewportMargin: Infinity, placeholder: signature, });
 
 jwtSignatureEditor.setSize(null, '45px');
 

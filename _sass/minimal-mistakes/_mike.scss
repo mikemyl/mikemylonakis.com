@@ -1,7 +1,7 @@
 #typed {
   margin-top: 10em;
   text-align: center;
-  color: #a8b7bf;
+  color: $base01;
 }
 
 .typed-img {
@@ -48,6 +48,14 @@
 
 #timeline-archive {
   padding-right: 0;
+}
+
+.timeline::before {
+  background-color: $base03 !important;
+}
+
+.page__footer {
+  background-color: $base01;
 }
 
 .round-div {
@@ -146,3 +154,5 @@ td:last-child {
   color: silver !important;
   opacity: 0.5;
 }
+
+
