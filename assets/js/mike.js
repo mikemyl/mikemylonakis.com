@@ -10,3 +10,13 @@ $(".language-bash .highlight span.nv").each(function (index) {
         )
     }
 });
+
+document.addEventListener("gumshoeActivate", function (event) {
+  const target = event.target;
+  const targetLink = target.querySelector(":scope > a[href]");
+  if (!targetLink)
+    // Precautionary check, so that we don't fall into unexpected errors
+    return;
+  const hash = targetLink.getAttribute("href");
+  history.replaceState({}, "", hash);
+});
