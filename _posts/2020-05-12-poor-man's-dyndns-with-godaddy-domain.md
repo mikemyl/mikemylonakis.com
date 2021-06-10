@@ -10,7 +10,7 @@ tags:
   - automation
 toc: true
 toc_sticky: true
-last_modified_at: 2021-05-09T07:07:31-02:00
+last_modified_at: 2021-06-10T07:06:41-02:00
 ---
 
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/posts/godaddy.webp)
@@ -51,7 +51,7 @@ The go script that we 're going to use in order to update our public ip address 
 the [releases](https://github.com/sestus/godyndns/releases) and then we can run it like this:
 
 ```bash
-$ ./godaddy-dydns --api-key=<GODADDY_API_KEY> --secret-key=<GODADDY_SECRET_KEY> --domain=<GODADDY_SUBDOMAIN>  
+$ ./godaddy-dyndns --api-key=<godaddy_api_key> --secret-key=<godaddy_secret_key> --domain=<godaddy_subdomain>
 ``` 
 
 Upon successful completion, the script should print something like this:
@@ -111,7 +111,7 @@ $ sudo cp godaddy-dyndns /usr/local/bin/
     Type=oneshot
     Environment=GODADDY_API_KEY=<godaddy-api-key> 
     Environment=GODADDY_SECRET_KEY=<godaddy-secret-key> 
-    Environment=GODADDY_SUBDOMAIN=<godaddy-subdomain> 
+    Environment=GODADDY_DOMAIN=<godaddy-subdomain> 
     ExecStart=/usr/local/bin/godaddy-dyndns
     
     [Install]
