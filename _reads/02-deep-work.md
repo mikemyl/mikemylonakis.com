@@ -1,13 +1,13 @@
 ---
 title:  "Deep work"
 header:
-    teaser: /assets/images/reads/deep-work.jpg
+    teaser: /assets/images/reads/deep-work.png
 permalink: /reads/deep-work/
 toc: true
 toc_sticky: true
 ---
 
-| ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/reads/deep-work.jpg) |
+| ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/reads/deep-work.png) |
 |:--:|
 | ***Deep Work*** *by Cal Newport.* |
 

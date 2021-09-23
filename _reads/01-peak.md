@@ -1,13 +1,13 @@
 ---
 title:  "Peak"
 header:
-    teaser: /assets/images/reads/peak.jpg
+    teaser: /assets/images/reads/peak.png
 permalink: /reads/peak/
 toc: true
 toc_sticky: true
 ---
 
-| ![Peak]({{ site.url }}{{ site.baseurl }}/assets/images/reads/peak.jpg) |
+| ![Peak]({{ site.url }}{{ site.baseurl }}/assets/images/reads/peak.png) |
 |:--:|
 | ***Peak*** *by Anders Ericsson, Robert Pool.* |
 
