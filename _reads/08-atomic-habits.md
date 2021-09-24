@@ -1,5 +1,5 @@
 ---
-title:  "Atomic habits"
+title:  "Atomic Habits"
 header:
     teaser: /assets/images/reads/atomic-habits.png
 permalink: /reads/atomic-habits/

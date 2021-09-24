@@ -41,19 +41,25 @@ reads:
     children:
       - title: "Peak"
         url: /reads/peak
-      - title: "Deep work"
+      - title: "Deep Work"
         url: /reads/deep-work
-      - title: "The art of learning"
+      - title: "The Art of Learning"
         url: /reads/the-art-of-learning
-      - title: "The 80/20 principle"
+      - title: "The 80/20 Principle"
         url: /reads/the-80-20-principle
-      - title: "The compound effect"
+      - title: "The Compound Effect"
         url: /reads/the-compound-effect
-      - title: "Start with why"
-        url: /reads/start-with-why
-      - title: "Getting things done"
+      - title: "Thinking Fast and Slow"
+        url: /reads/thinking-fast-and-slow
+      - title: "Getting Things Done"
         url: /reads/getting-things-done
-      - title: "Atomic habits"
+      - title: "Atomic Habits"
         url: /reads/atomic-habits
-      - title: "So good they can't ignore you"
+      - title: "Ultralearning"
+        url: /reads/ultralearning
+      - title: "So Good They Can't Ignore You"
         url: /reads/so-good-they-cant-ignore-you
+      - title: "Start With Why"
+        url: /reads/start-with-why
+      - title: "Man's Search for Meaning"
+        url: /reads/mans-search-for-meaning

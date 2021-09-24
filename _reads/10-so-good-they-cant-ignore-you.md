@@ -1,5 +1,5 @@
 ---
-title:  "So good they can't ignore you"
+title:  "So Good They Can't Ignore You"
 header:
     teaser: /assets/images/reads/so-good-they-cant-ignore-you.png
 permalink: /reads/so-good-they-cant-ignore-you/
@@ -9,6 +9,6 @@ toc_sticky: true
 
 | ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/reads/so-good-they-cant-ignore-you.png) |
 |:--:|
-| ***So good they can't ignore you*** *by Cal Newport.* |
+| ***So Good They Can't Ignore You*** *by Cal Newport.* |
 
 Coming soon...

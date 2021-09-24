@@ -1,5 +1,5 @@
 ---
-title:  "Deep work"
+title:  "Deep Work"
 header:
     teaser: /assets/images/reads/deep-work.png
 permalink: /reads/deep-work/
