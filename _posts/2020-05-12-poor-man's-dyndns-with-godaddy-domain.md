@@ -47,8 +47,8 @@ and we ll use them in the script that will be updating our domain.
 ### Use the go script to update the Domain
 
 The go script that we 're going to use in order to update our public ip address can be found in 
-[sestus/godydns](https://github.com/sestus/godyndns/). We can grab the latest binaries for our OS-architecture from
-the [releases](https://github.com/sestus/godyndns/releases) and then we can run it like this:
+[mikemylonakis.com/godydns](https://github.com/mikemylonakis.com/godyndns/). We can grab the latest binaries for our OS-architecture from
+the [releases](https://github.com/mikemylonakis.com/godyndns/releases) and then we can run it like this:
 
 ```bash
 $ ./godaddy-dyndns --api-key=<godaddy_api_key> --secret-key=<godaddy_secret_key> --domain=<godaddy_subdomain>
@@ -135,6 +135,6 @@ $ journalctl -u five-minute-timer.service
 
 In this post we saw a free, DIY alternative to the paid Dynamic DNS services such as [FreeDNS](https://freedns.afraid.org/) ,
 [Dyn](https://account.dyn.com/) and others. Using a raspberry pi, a utility script
-from [sestus/godyndns](https://github.com/sestus/godyndns/) and a systemd timer we were able to 
+from [mikemylonakis.com/godyndns](https://github.com/mikemylonakis.com/godyndns/) and a systemd timer we were able to 
 stay up to date with our latest public IP address and update a domain, which we will be using
 to access our home network. 

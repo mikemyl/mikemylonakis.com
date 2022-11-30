@@ -21,7 +21,7 @@ name                     : "Mike Mylonakis"
 description              : "Blog and personal website of Mike Mylonakis."
 url                      : "https://mikemylonakis.com"
 #baseurl                  : "/minimal-mistakes"
-repository               : "sestus/minimal-mistakes"
+repository               : "mikemylonakis.com/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -100,7 +100,7 @@ social:
   links: # An array of links to social media profiles
     - "https://www.linkedin.com/in/mmylonak"
     - "https://www.facebook.com/mike.mylonak"
-    - "https://github.com/sestus"
+    - "https://github.com/mikemylonakis.com"
     - "https://stackoverflow.com/users/2254704/sestus"
 
 # Analytics
@@ -133,7 +133,7 @@ author:
       url: "https://www.facebook.com/mike.mylonak"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sestus"
+      url: "https://github.com/mikemylonakis.com"
     - label: "StackOverflow"
       icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/2254704/sestus"
@@ -363,9 +363,12 @@ start-delay: 200
 delete-delay: 5000
 
 events:
+- image: "/assets/images/timeline/copper.png"
+  date: "May 2022 - Present"
+  description: "Senior software engineer at Copper, London. Working on the enterprise offering of Copper's Blockchain Custody / Clearing / Settlement solution."
 - image: "/assets/images/timeline/ubs.png"
-  date: "July 2017 - Present"
-  description: "Quantitave Developer - DevOps engineer at UBS, London. Working on the development and maintenance of the eFX trading platform"
+  date: "July 2017 - May 2022"
+  description: "Quantitave Developer - DevOps engineer at UBS, London. Worked on the development and maintenance of the eFX trading platform"
 - image: "/assets/images/timeline/commission.png"
   date: "March 13-15 2017"
   description: "Selected amongst several teams to represent Greece in the <a href=\"https://ec.europa.eu/eurostat/cros/content/european-big-data-hackathon-0_en\">European Big Data Hackathon</a>. Ranked 9th out of 22 EU countries"
