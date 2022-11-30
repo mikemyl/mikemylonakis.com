@@ -21,14 +21,14 @@ name                     : "Mike Mylonakis"
 description              : "Blog and personal website of Mike Mylonakis."
 url                      : "https://mikemylonakis.com"
 #baseurl                  : "/minimal-mistakes"
-repository               : "mikemylonakis.com/minimal-mistakes"
+repository               : "mikemyl/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" #"disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : "mikemylonakis"
+    shortname            : "mikemyl"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -100,7 +100,7 @@ social:
   links: # An array of links to social media profiles
     - "https://www.linkedin.com/in/mmylonak"
     - "https://www.facebook.com/mike.mylonak"
-    - "https://github.com/mikemylonakis.com"
+    - "https://github.com/mikemyl"
     - "https://stackoverflow.com/users/2254704/sestus"
 
 # Analytics
@@ -121,7 +121,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:mike@mikemylonakis.com
+      url: mailto:contact@mikemylonakis.com
     - label: "Keybase"
       icon: "fas fa-fw fa-key"
       url: "https://keybase.io/sestus"
@@ -133,7 +133,7 @@ author:
       url: "https://www.facebook.com/mike.mylonak"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mikemylonakis.com"
+      url: "https://github.com/mikemyl"
     - label: "StackOverflow"
       icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/2254704/sestus"
