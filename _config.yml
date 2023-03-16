@@ -62,9 +62,9 @@ search                   : true
 search_full_content      : true
 search_provider          : algolia
 algolia:
-  application_id         : BXW5J1OV5K
+  application_id         : GWST4QTK4B
   index_name             : BLOG
-  search_only_api_key    : f8eda0195af463b055d2de7c2f46b96b
+  search_only_api_key    : 5c1e45ce8d4ba869b5d8ca0309225307
   powered_by             : true # true (default), false
   files_to_exclude:
     - _pages/sitemap.md
