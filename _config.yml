@@ -28,7 +28,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" #"disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : "mikemyl"
+    shortname            : "mikemylonakis"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
