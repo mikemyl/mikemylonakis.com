@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Mike Mylonakis"
   avatar           : "/assets/images/author.png"
-  bio              : "Quantitative Developer - DevOps Engineer at UBS."
+  bio              : "Software Engineering Team Lead at Copper."
   location         : "London, UK"
   email            :
   links:
@@ -365,7 +365,7 @@ delete-delay: 5000
 events:
 - image: "/assets/images/timeline/copper.png"
   date: "May 2022 - Present"
-  description: "Senior software engineer at Copper, London. Working on the enterprise offering of Copper's Blockchain Custody / Clearing / Settlement solution."
+  description: "Software Engineering Team Lead at Copper. Working on the enterprise offering of Copper's Blockchain Custody / Clearing / Settlement solution."
 - image: "/assets/images/timeline/ubs.png"
   date: "July 2017 - May 2022"
   description: "Quantitave Developer - DevOps engineer at UBS, London. Worked on the development and maintenance of the eFX trading platform"
