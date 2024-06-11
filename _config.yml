@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+remote_theme             : "mmistakes/minimal-mistakes@4.26.1"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -115,8 +115,8 @@ analytics:
 author:
   name             : "Mike Mylonakis"
   avatar           : "/assets/images/author.png"
-  bio              : "Software Engineering Team Lead at Copper."
-  location         : "London, UK"
+  bio              : "Senior Software Engineer at TransFICC"
+  location         : "Athens, Greece"
   email            :
   links:
     - label: "Email"
@@ -363,8 +363,11 @@ start-delay: 200
 delete-delay: 5000
 
 events:
+- image: "/assets/images/timeline/transficc.jpg"
+  date: "May 2023 - Present"
+  description: "Senior Software Engineer at TransFICC. Working across the stack on the development of the our One Api and eTrading Service offerings."
 - image: "/assets/images/timeline/copper.png"
-  date: "May 2022 - Present"
+  date: "May 2022 - May 2023"
   description: "Software Engineering Team Lead at Copper. Working on the enterprise offering of Copper's Blockchain Custody / Clearing / Settlement solution."
 - image: "/assets/images/timeline/ubs.png"
   date: "July 2017 - May 2022"
