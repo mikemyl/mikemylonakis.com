@@ -4,6 +4,10 @@ permalink: /notebook/typescript-satsifies/
 excerpt: "The Satisfies keyword in Typescript"
 toc: true
 toc_sticky: true
+categories:
+  - Front End
+tags:
+  - typescript
 last_modified_at: 2024-07-09T10:00:00-04:00
 ---
 
