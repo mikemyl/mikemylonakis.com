@@ -57,11 +57,14 @@ addUnderscoreLowerRepeatThreeTimes("foo");
 
 ### createStore
 
+{% capture notice-type %}
 Note that this function is marked as deprecated - `configureStore` from [redux-toolkit](https://redux-toolkit.js.org/api/configureStore)
 should be used instead.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-type | markdownify }}</div>
 
 `createStore` is the function that creates the Redux store, which is the object that holds the state of the application.
-{ :.notice--info}
 
 To create that store we need to give it a reducer. As described earlier, a reducer is a function that takes the current state and the action that took place,
 and returns the new state. Here's a basic example:
