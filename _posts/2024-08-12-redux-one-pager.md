@@ -13,6 +13,9 @@ toc_sticky: true
 last_modified_at: 2024-08-12T07:06:41-02:00
 ---
 
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/posts/redux.png)
+
+
 ## Introduction
 
 Redux is a JavaScript library for managing application state. In simple terms, it works like this:
