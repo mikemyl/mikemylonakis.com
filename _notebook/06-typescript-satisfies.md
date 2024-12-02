@@ -12,7 +12,34 @@ The satisfies keyword in Typescript is used to check if a type satisfies another
 This is useful when we want to check if a type has a certain set of properties,
 or if it implements a certain interface, without changing its original type. This way,
 we ensure compatibility with a certain contract, which is useful as it protects us from 
-API changes of some 3rd party library code that we are using.
+API changes of some 3rd party library code that we are using. It also allows us to maintain the 
+most specific type, while still being able to check if it satisfies a more general type.
+
+Example:
+
+```typescript
+interface HasId {
+    id: string;
+}
+
+interface AnimalWithId extends HasId {
+    name?: string;
+};
+
+const dog: AnimalWithId = {
+    id: '1',
+    name: 'Rex'
+};
+
+dog.name.toUpperCase(); // Error: name can be undefined on the AnimalWithId type'.
+
+const anotherDog: AnimalWithId = {
+    id: '1',
+    name: 'Rex'
+} satisfies HasId;
+
+anotherDog.name.toUpperCase(); // Okay, name is not undefined. We maintain the most specific type, while adhering to the HasId contract.
+````
 
 It also serves as documentation and improves readability.
 
