@@ -33,7 +33,7 @@ const dog: AnimalWithId = {
 
 dog.name.toUpperCase(); // Error: name can be undefined on the AnimalWithId type'.
 
-const anotherDog: AnimalWithId = {
+const anotherDog = {
     id: '1',
     name: 'Rex'
 } satisfies HasId;
