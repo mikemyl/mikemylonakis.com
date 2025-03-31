@@ -12,7 +12,8 @@ Apparently, ubuntu is using systemd-sockets for quite some time, so the way to c
 Here's how do it:
 
 - `touch /etc/systemd/system/ssh.socket.d/listen.conf`
-- ```
+- Put the following in it:
+  ```
   cat <<EOF > /etc/systemd/system/ssh.socket.d/listen.conf
   [Socket]
   ListenStream=
@@ -21,7 +22,7 @@ Here's how do it:
   ```
   
 
-That first `ListenStream=` is necessary to remove teh default port (22). If you don't do that, the ssh deamon will listen
+That first `ListenStream=` is necessary to remove the default port (22). If you don't do that, the ssh deamon will listen
 on both port 22 and 14453 (in this example).
 
 Source: https://serverfault.com/a/1159600
