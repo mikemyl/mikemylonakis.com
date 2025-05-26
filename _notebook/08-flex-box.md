@@ -25,6 +25,12 @@ justify-content: flex-start;
 
 Controls the main axis. The main axis is defined by the flex-direction property. Default is row.
 
+- `space-between` 
+- `space-around`
+- `flex-start`
+- `flex-end`
+- `center`
+
 ### Align Items
 
 .container {
@@ -47,6 +53,8 @@ property.
 - `center` aligns items at the center of the cross axis. If the flex-direction is row, it aligns items at the center of
   the vertical axis. If the flex-direction is column, it aligns items at the center of the horizontal axis.
 - `baseline` aligns items at the baseline of the cross axis.
+
+  Note that `align-self` overrides `align-items` for an individual item.
 
 ### Stretching
 
