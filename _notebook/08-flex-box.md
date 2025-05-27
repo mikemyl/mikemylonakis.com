@@ -74,3 +74,19 @@ The flex-direction row is also the default direction. So that's equivalent to:
     display: flex;
 }
 ```
+
+### Flex grow
+
+`flex-grow` can be thought of as a ratio, that indicates the proportion of the available space should be assigned to an 
+item's main size (the flex-direction axis).
+
+```css
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.item:nth-child(1) {
+  flex-grow: 1
+}
+``` 
