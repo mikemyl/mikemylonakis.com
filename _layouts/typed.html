@@ -1,92 +1,44 @@
 ---
+layout: default
 ---
 
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
-  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-<head>
-    {% include head.html %}
-    {% include head/custom.html %}
-</head>
-
-<body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-
-{% include_cached masthead.html %}
-
-<div class="initial-content">
-<div id="typed">
+<div id="main" role="main">
+  <section class="page__content" id="typed">
     <span class="intro-text">{{ content }}</span>
-        <div id="typed_avatar">
-            <img class="typed-img" src="{{site.baseurl}}{{ site.author.avatar }}" alt="Mike Mylonakis" itemprop="image">
-        </div>
+    <div id="typed_avatar">
+      <img class="typed-img" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" itemprop="image">
+    </div>
+    {% if page.tagline %}<p class="typed-tagline">{{ page.tagline }}</p>{% endif %}
+    <p><a href="{{ '/about/' | relative_url }}" class="btn btn--primary">About me</a></p>
+  </section>
 </div>
-</div>
-
-{% if site.search == true %}
-<div class="search-content">
-    {% include_cached search/search_form.html %}
-</div>
-{% endif %}
-
-
-
-{% include scripts.html %}
-
-<div class="page__footer">
-    <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-    </footer>
-</div>
-
-</body>
-
 
 {% if site.dynamic-typing == true %}
-
-<!-- Dynamic Typing Start -->
-
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/typed/typed.min.js"></script>
-<script type="text/javascript">
-    var myQuotes =  new Array();
-    {% for line in site.typed_lines %}
-    myQuotes.push("{{ line.text }}");
-    {% endfor %}
-    function shuffle(array) {
-        var currentIndex = array.length, temporaryValue, randomIndex ;
-        // While there remain elements to shuffle...
-        while (0 !== currentIndex) {
-            // Pick a remaining element...
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
-            // And swap it with the current element.
-            temporaryValue = array[currentIndex];
-            array[currentIndex] = array[randomIndex];
-            array[randomIndex] = temporaryValue;
-        }
-        return array;
-    }
+<script>
+  // typed.min.js is a jQuery plugin and jQuery loads at the end of <body>,
+  // so load the plugin only after the DOM (and jQuery) is ready.
+  document.addEventListener("DOMContentLoaded", function () {
+    var lines = [{% for line in site.typed_lines %}{{ line.text | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}];
     {% if site.shuffle %}
-    shuffle(myQuotes)
+    for (var i = lines.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = lines[i]; lines[i] = lines[j]; lines[j] = tmp;
+    }
     {% endif %}
-    $(".intro-text").typed({
-        strings: myQuotes,
+    var script = document.createElement("script");
+    script.src = "{{ '/assets/js/typed/typed.min.js' | relative_url }}";
+    script.onload = function () {
+      $(".intro-text").typed({
+        strings: lines,
         typeSpeed: {{ site.type-speed }},
-    backDelay: {{ site.delete-delay }},
-    startDelay: {{ site.start-delay }},
-    loop: {{ site.loop }},
-    loopCount: {{ site.loop-count }},
-    cursorChar: "|"
-    });
+        backDelay: {{ site.delete-delay }},
+        startDelay: {{ site.start-delay }},
+        loop: {{ site.loop }},
+        loopCount: {{ site.loop-count }},
+        cursorChar: "|"
+      });
+    };
+    document.body.appendChild(script);
+  });
 </script>
-
-<!-- Dynamic Typing End  -->
-
 {% endif %}
-
-</html>

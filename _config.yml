@@ -20,8 +20,8 @@ title_separator          : "|"
 name                     : "Mike Mylonakis"
 description              : "Blog and personal website of Mike Mylonakis."
 url                      : "https://mikemylonakis.com"
-#baseurl                  : "/minimal-mistakes"
-repository               : "mikemyl/minimal-mistakes"
+baseurl                  : "" # explicit: jekyll-github-metadata otherwise guesses a project-page path
+repository               : "mikemyl/mikemylonakis.com"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -87,10 +87,6 @@ naver_site_verification  :
 # Social Sharing
 twitter:
   username               :
-facebook:
-  username               : "mike.mylonak"
-  app_id                 : "1298606736947978"
-  publisher              : "https://www.facebook.com/mike.mylonak"
 og_image                 : "/assets/images/author.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -99,7 +95,6 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://www.linkedin.com/in/mmylonak"
-    - "https://www.facebook.com/mike.mylonak"
     - "https://github.com/mikemyl"
     - "https://stackoverflow.com/users/2254704/sestus"
 
@@ -122,15 +117,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:contact@mikemylonakis.com
-    - label: "Keybase"
-      icon: "fas fa-fw fa-key"
-      url: "https://keybase.io/sestus"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/mmylonak"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/mike.mylonak"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mikemyl"
@@ -228,8 +217,6 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: "Europe/London"
 
 
@@ -325,8 +312,6 @@ defaults:
       share: true
       comments: true
       toc_label: On this page
-      sidebar:
-        nav: "notebook"
   - scope:
       path: ""
       type: tools
@@ -365,16 +350,16 @@ delete-delay: 5000
 events:
 - image: "/assets/images/timeline/transficc.jpg"
   date: "May 2023 - Present"
-  description: "Senior Software Engineer at TransFICC. Working across the stack on the development of the our One Api and eTrading Service offerings."
+  description: "Senior Software Engineer at <a href=\"https://transficc.com/\">TransFICC</a>, London. Working across the stack on One API and the eTrading Service: low-latency e-trading connectivity and workflows for global banks. Extreme programming: full-time pairing, TDD, trunk-based continuous delivery."
 - image: "/assets/images/timeline/copper.png"
   date: "May 2022 - May 2023"
-  description: "Software Engineering Team Lead at Copper. Working on the enterprise offering of Copper's Blockchain Custody / Clearing / Settlement solution."
+  description: "Software Engineering Team Lead at Copper, London. Led the DevOps / Enterprise Blockchain team that delivered the on-prem offering of Copper's digital-asset custody, clearing and settlement platform."
 - image: "/assets/images/timeline/ubs.png"
   date: "July 2017 - May 2022"
-  description: "Quantitave Developer - DevOps engineer at UBS, London. Worked on the development and maintenance of the eFX trading platform"
+  description: "Director, Front Office eFX Quant Developer at UBS, London. Ran the deployment, monitoring and CI/CD platform behind the eFX trading stack. Scaled its process manager from 200 to 5,000+ processes and led the migration of services to Azure."
 - image: "/assets/images/timeline/commission.png"
   date: "March 13-15 2017"
-  description: "Selected amongst several teams to represent Greece in the <a href=\"https://ec.europa.eu/eurostat/cros/content/european-big-data-hackathon-0_en\">European Big Data Hackathon</a>. Ranked 9th out of 22 EU countries"
+  description: "Selected amongst several teams to represent Greece in the <a href=\"https://ec.europa.eu/eurostat/web/products-eurostat-news/-/cdn-20170314-1\">European Big Data Hackathon</a>. Ranked 9th out of 22 EU countries"
 - image: "/assets/images/timeline/atypon.jpg"
   date: "April 2016 - June 2017"
   description: "Software Engineer (Big Data) at Atypon, Athens, worked on the development and maintenance of <a href=\"https://www.atypon.com/products/literatum\">Literatum</a>"
@@ -383,7 +368,7 @@ events:
   description: "Master of Science (MSc) - National and Kapodistrian University of Athens, Department of Informatics and Telecommunications - Computer Networking"
 - image: "/assets/images/timeline/nokia.png"
   date: "April 2014 - March 2016"
-  description: "Software Engineer at Nokia, Athens, worked at a POC on <a href=\"https://networks.nokia.com/solutions/flexible-service-chaining\"> Flexible Service Chaining</a>, and on the development - maintenance of <a href=\"https://networks.nokia.com/products/flexi-network-gateway\">Flexi NG</a>"
+  description: "Software Engineer at Nokia, Athens, worked on a PoC for Flexible Service Chaining, and on the development and maintenance of Flexi NG (the mobile packet-core gateway)"
 - image: "/assets/images/timeline/ntua.png"
   date: "October 2006 - May 2013"
   description: "Master of Engineering (MEng) - National Technical University of Athens - Electrical and Computer Engineering"

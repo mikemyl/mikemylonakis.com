@@ -24,7 +24,7 @@ However, there is still something that's missing: making my passwords available 
 
 In this post I will address this issue by describing how to utilize the new [YubiKey 5 NFC](https://www.yubico.com/product/yubikey-5-nfc/),
 an Android phone with NFC reader and the apps
-[Openkeychain](https://www.openkeychain.org/) and [Password Store](https://play.google.com/store/apps/details?id=com.zeapo.pwdstore&hl=en_US) 
+[Openkeychain](https://www.openkeychain.org/) and [Password Store](https://github.com/android-password-store/Android-Password-Store) 
 in order to bring the power of the Unix Password Manager into Android. Let's start!
 
 ## Setting up the YubiKey
@@ -33,7 +33,7 @@ First of all, let me explain why a YubiKey is needed. So if we want to use the U
 we need to be able to decrypt the files that contain our passwords. Now we can do that by copying the private encryption
 key into the Android phone but IMHO, putting the private key in an phone is not a very good idea. That's were YubiKey comes into
 the picture. Using the new [YubiKey 5 NFC](https://www.yubico.com/product/yubikey-5-nfc/) or the older
-[YubiKey Neo](https://support.yubico.com/support/solutions/articles/15000006494-yubikey-neo) we can have them store our
+[YubiKey Neo](https://en.wikipedia.org/wiki/YubiKey) we can have them store our
 private key(s), making them available to the phone only when needed, via NFC.
 
 Setting up the YubiKey with OpenPGP is quite easy, following the instructions on [Yubico's](https://support.yubico.com/support/solutions/articles/15000006420-using-your-yubikey-with-openpgp)
@@ -70,7 +70,7 @@ Here's a asciinema of what's described above:
 We are going to need two apps:
 
 * [Openkeychain](https://f-droid.org/en/packages/org.sufficientlysecure.keychain/), which is a gpg toolchain for Android. This is need so that the encryption key can be loaded from YubiKey.
-* [Password Store](https://f-droid.org/en/packages/com.zeapo.pwdstore/), which is the Unix Password Manager implemented on Android.
+* [Password Store](https://github.com/android-password-store/Android-Password-Store), which is the Unix Password Manager implemented on Android.
 
 
 ### Setting up OpenKeyChain

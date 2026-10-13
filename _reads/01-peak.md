@@ -74,7 +74,7 @@ effective.
 ### Practice on real world conditions
 
 Practising at real world condition plays an important role in improving one's abilities on a particular subject.
-Anders gives [top gun](https://www.rehearsal.com/2017/12/deliberate-practice-the-topgun-approach/) as an example of that
+Anders gives Top Gun as an example of that
 approach, where the US navy pilots managed to significantly improve their performance on air dogfights with this programme.
 
 ### Motivation

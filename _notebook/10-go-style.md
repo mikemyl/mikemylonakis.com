@@ -1,6 +1,6 @@
 ---
 title: "Go Style Guide"
-permalink: /notebook/go-style-guide
+permalink: /notebook/go-style-guide/
 excerpt: "Guidelines for writing Idiomatic Go code"
 toc: true
 toc_sticky: true

@@ -36,7 +36,7 @@ $ export https_proxy=http://<my_usename>:<my_password>@my_proxy.com
 $ wget someurl.com
 ```
 
-Docker, however, is a daemon and is managed by [systemd](https://wiki.archlinux.org/index.php/systemd) on the most
+Docker, however, is a daemon and is managed by [systemd](https://wiki.archlinux.org/title/Systemd) on the most
 popular Linux distributions, so we need to configure these environment variables in a different way.
 
 ### Systemd directives

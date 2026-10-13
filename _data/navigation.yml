@@ -20,16 +20,6 @@ main:
   #   url: /collection-archive/
 
 
-notebook:
-  - title: "notebook"
-    children:
-      - title: "Latencies"
-        url: /notebook/latencies
-      - title: "SSL certificates"
-        url: /notebook/ssl
-      - title: "PDF file manipulation"
-        url: /notebook/pdfs
-
 tools:
   - title: Tools
     children:
