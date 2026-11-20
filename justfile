@@ -23,6 +23,10 @@ serve:
 build:
     JEKYLL_ENV=production bundle exec jekyll build
 
+# Run the tests of the page scripts (assets/js/mike)
+test:
+    node --test _tests/
+
 # Remove build output and caches
 clean:
     bundle exec jekyll clean

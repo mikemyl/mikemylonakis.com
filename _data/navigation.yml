@@ -25,6 +25,8 @@ tools:
     children:
       - title: "JWT decoder"
         url: /tools/jwt
+      - title: "Major scale patterns"
+        url: /tools/major-scale-patterns
 
 reads:
   - title: Reads
